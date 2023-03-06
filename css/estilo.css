@@ -1,0 +1,114 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 25px;
+}
+header{
+    height: auto;
+}
+/*=============================================================
+-- slider --
+=============================================================*/
+.carousel-inner {
+    max-height: 20rem;
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color:#0df053;
+    background-color: #fff;
+}
+
+.main .redes .card{
+    display: grid;
+    grid-template-columns: auto;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    text-align: center;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #1a2a38;
+}
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: 3efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+}
+
+.redes{
+    display: flex;
+}
+.Caricaturas{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 4fr 4fr 4fr;
+}
+
+
+
+
+
+
+/*=============================================================
+-- media queries pantalla sm --=============================================================*/
+@media (max-width:78px) {
+#intro {
+    width: 90%;
+}
+}
