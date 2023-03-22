@@ -1,0 +1,80 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+}
+nav{
+    width: auto;
+    height: 50px;
+    color: white;
+    background-color: rgb(250, 107, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#logo{
+    width: 50px;
+
+}
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.pie-pagina{
+    width: 100%;
+    height: auto;
+    background-color: #1a2a38;
+}
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: 3efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+}
+
+.redes{
+    display: flex;
+}
+.Caricaturas{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 4fr 4fr 4fr;
+}

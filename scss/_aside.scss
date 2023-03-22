@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    height: 600px;
+    .aside{
+    display: flex;
+    width: 100% auto;
+    .h1{
+        text-align: center;
+        width: 100% auto;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .cel{
+        justify-content: end;
+        justify-items: end;
+        .img{
+            width: 380px;
+            margin-left: 300px;
+        }
+    }
+
+    }
+}

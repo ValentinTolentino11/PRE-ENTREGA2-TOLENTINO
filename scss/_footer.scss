@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    width: 100% auto;
+    .grupo-1{
+        display: flex;
+        .box{
+            display: flex;
+            background-color: rgb(40, 40, 71);
+            width: 100%;
+            justify-content: center;
+            color: black;
+            .h6{
+                background-color: pink;
+                color: pink;
+                text-align: center;
+            }
+        }
+        .red-social{
+            background-color: rgb(40, 40, 71);
+            display: flex;
+            justify-content: start;
+            .a{
+               justify-content: space-around;
+            }
+        }
+    }
+    .grupo-2{
+        background-color: gray;
+        text-align: center;
+    }
+}

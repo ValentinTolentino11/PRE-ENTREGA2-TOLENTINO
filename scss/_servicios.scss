@@ -1,0 +1,45 @@
+.servicios {
+  background-color: #fa7769;
+  text-align: center;
+  margin-top: 20px;
+  }
+  .servicios .texto1 {
+    text-align: center;
+    color: white;
+    padding-top: 20px; }
+  .servicios .cards .card1 {
+    background-color: rgba(224, 210, 210, 0.637);
+    border-radius: 10px;
+    transition: all 1s; }
+    .servicios .cards .card1 .img {
+      border-radius: 10px;}
+    .servicios .cards .card1:hover {
+      transform: scale(1.2);
+    }
+  .servicios .cards .card2 {
+    background-color: rgba(224, 210, 210, 0.637);
+    border-radius: 10px;
+    transition: all 1s; }
+    .servicios .cards .card2 .img {
+      border-radius: 10px;}
+    .servicios .cards .card2:hover {
+      transform: scale(1.2);
+    }
+  .servicios .cards .card3 {
+    background-color: rgba(224, 210, 210, 0.637);
+    border-radius: 10px;
+    transition: all 1s; }
+    .servicios .cards .card3 .img {
+      border-radius: 10px;}
+    .servicios .cards .card3:hover {
+      transform: scale(1.2);
+    }
+  .servicios .cards .card4 {
+    background-color: rgba(224, 210, 210, 0.637);
+    border-radius: 10px;
+    transition: all 1s; }
+    .servicios .cards .card4 .img {
+      border-radius: 10px;}
+    .servicios .cards .card4:hover {
+      transform: scale(1.2);
+    }

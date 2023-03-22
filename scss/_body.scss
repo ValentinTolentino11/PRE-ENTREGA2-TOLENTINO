@@ -1,0 +1,64 @@
+body{
+    min-height: 100vh;
+    background-image: url("../multimedia/Diseño\ sin\ título.jpg");
+
+}
+.servicios{
+    background-color: rgb(250, 119, 105);
+    text-align: center;
+    .texto1{
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+    }
+    .cards{
+        .card1{
+            background-color: rgba(224, 210, 210, 0.637);
+            border-radius: 10px;
+            .img{
+                border-radius: 10px;
+            }
+
+        }
+    }
+}
+.caricaturas{
+    background-color: rgb(250, 119, 105);
+    text-align: center;
+    .texto1{
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+    }
+    .cards{
+        .card1{
+            background-color: rgba(224, 210, 210, 0.637);
+            border-radius: 10px;
+            .img{
+                border-radius: 10px;
+            }
+
+        }
+    }
+}
+.teen{
+    background-color: rgb(250, 119, 105);
+    text-align: center;
+    .texto1{
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+    }
+    .cards{
+        .card1{
+            background-color: rgba(224, 210, 210, 0.637);
+            border-radius: 10px;
+            .img{
+                border-radius: 10px;
+            }
+        }
+    }
+}
+.wsplogo{
+    position: right  fixed;
+}

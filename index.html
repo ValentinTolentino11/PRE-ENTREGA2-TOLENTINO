@@ -1,285 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./bootstrap.min.css">
-    <link rel="icon" href="./imagenes/icono/IMG_20230202_202722-modified.png">
-    <link rel="stylesheet" href="./css/estilo.css">
-    <title>Melissa Tolentino Nail Art</title>
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./imagenes/icono/IMG_20230202_202722-modified.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/estilo.css">
+  <title>Melissa Tolentino Nail Art</title>
+  <meta name="description" content="Melissa tolentino Nail Art, contamos con los mejores profesionales, dedicados a la belleza y salud de tus manos">
+  <meta name="keywords" content="uñas, nail art, nails art, estudio de uñas, belleza de manos, belleza de pies, esculpidas">
 </head>
-<div>
-    <div class="container-fluid bg-dark text-white">
-        <header class="header">
-            <nav class="navbar navbar-expand-lg navBar-dark p-2">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"> <img src="./imagenes/logo/logo.jpg" width="75px" alt="logo" class="rounded"></a>
-
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./contactanos.html">Contactanos</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Servicios
-                        </a>
-                        <ul class="dropdown-menu bg-dark">
-                          <li><a class="dropdown-item" href="#servicios">Esculpidas</a></li>
-                          <li><a class="dropdown-item" href="#Caricaturas">Caricaturas</a></li>
-                          <li><a class="dropdown-item" href="#">Dijes y Encapsulados</a></li>
-                          <li><a class="dropdown-item" href="#Esmaltado Teen">Esmaltado Teen</a></li>
-
-                        </ul>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </header>
-    </div>
-<!-- ============================================================= -->
-<!-- slider -->
-<!-- ============================================================= -->
-<div id="carouselExample" class="carousel slide">
-    <div class="carousel-inner">
-
-      <div class="carousel-item active" data-bs-intervale="3000">
-        <img src="./multimedia/banner1.png" class="d-block w-100" alt="slide1">
-      </div>
-
-
-      <div class="carousel-item" data-bs-intervale="3000">
-        <img src="./imagenes/6.jpg" class="d-block w-100" alt="slide2">
-      </div>
-
-      <div class="carousel-item" data-bs-intervale="3000">
-        <img src="./imagenes/2.jpg" class="d-block w-100" alt="slide3">
-      </div>
-    </div>
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <!-- ============================================================= -->
-<!-- Intro -->
-<!-- ============================================================= -->
-<section class="w-50 mx-auto text-center pt-2" id="intro">
-    <h1 class="p-3 fs-2 border-top border-3">Un servicio único, estrategicamente pensado, para lucir tus <span class="text-dark"> Manos hermosas, Siempre</span></h1>
-    <p class="p-3 fs-4"><span class="text-dark"> Melissa Tolentino Nails Art.</span> Es el lugar donde vas a poder acceder a los diseños más personalizados del mercado, cada clienta es única para nosotros, si buscas tu estilo, seguro lo encontras acá.
-    </p>
-</section>
-  <!-- ============================================================= -->
-<!-- Servicios -->
-<!-- ============================================================= -->
-<section class="container-fluid" id="servicios">
-    <div class="row w-100 p-4 text-center">
-
-      <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card" style="width: 18rem;">
-            <img  class="" src="./imagenes/12.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+<body>
+  <div class="container-fluid bg-body-dark" id="nav">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navBar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="./imagenes/logo/logo.jpg" alt="logo" class="rounded-circle" id="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contactanos.html">Contactanos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#servicios">Esculpidas</a></li>
+                  <li><a class="dropdown-item" href="#caricaturas">Caricaturas</a></li>
+                  <li><a class="dropdown-item" href="#">Dijes y Encapsulados</a></li>
+                  <li><a class="dropdown-item" href="#esmaltado teen">Esmaltado Teen</a></li>
+                </ul>
+              </li>
+            </ul>
           </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <img class="banner" src="./multimedia/Diseño sin título.jpg" alt="" height="90px">
+  <div class="container">
+    <div class="aside">
+      <h1 class="h1">Un servicio único, estrategicamente pensado,<br> para lucir tus <span class="text-dark"> Manos hermosas, Siempre</span></h1>
+      <div class="cel">
+        <img class="img" src="./multimedia/cel-copia.png" alt="imagen calendario">
       </div>
-      
+    </div>
+  </div>
+  <section class="servicios container-fluid" id="servicios">
+   <h2 class="texto1">
+    CONOCÉ CUÁLES SON
+   </h2>
+   <h2 class="texto2">
+    NUESTROS SERVICIOS
+   </h2>
+   <h6>
+     Contamos con los mejores profesionales y productos, avalados mundialmente.
+   </h6>
+   <div class="cards row w-100 p-4 text-center">
       <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card" style="width: 18rem;">
-            <img src="./imagenes/6.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+       <div class="card1" style="width: 18rem;">
+         <img src="./imagenes/12.jpg" class="card-img-top rounded" alt="foto,uñas dijes">
+       </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-3">
+        <div class="card2" style="width: 18rem;">
+         <img src="./imagenes/6.jpg" class="card-img-top rounded" alt="foto, uñas tribal">
         </div>
       </div>
-      
       <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card" style="width: 18rem;">
-            <img src="./imagenes/9.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+        <div class="card3" style="width: 18rem;">
+          <img src="./imagenes/9.jpg" class="card-img-top rounded" alt="foto,uñas pink y dije">
         </div>
       </div>
-      
       <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card" style="width: 18rem;">
-            <img src="./imagenes/5.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+        <div class="card4" style="width: 18rem;">
+          <img src="./imagenes/5.jpg" class="card-img-top rounded" alt="fot, uñas black y dije">
         </div>
-      </div>  
-
-    </div>
-</section>
-
-<section class="container-fluid" id="Caricaturas">
-  <h3 class="p-3 fs-4 text-center"><span class="text-white"> Caricaturas</span>
-  </h3>
-  <div class="row w-100 p-4 text-center">
-    <div class="col-sm-12 col-md-4 col-lg-4">
-      <div class="card" style="width: 18rem;">
-          <img  class="" src="./imagenes/anime/frezzer.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+      </div>
+    <h2 class="texto1">
+    CONOCÉ CUÁLES SON
+    </h2>
+    <h2 class="texto2"   id="caricaturas">
+    DISEÑOS ANIME
+    </h2>
+    <h6>
+    Contamos con los mejores profesionales y productos, avalados mundialmente.
+    </h6>
+      <div class="col-sm-12 col-md-4 col-lg-3">
+        <div class="card1" style="width: 18rem;">
+          <img src="./imagenes/frezzer.jpg" class="card-img-top rounded" alt="foto, uñas diseño frezzer">
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-3">
+        <div class="card2" style="width: 18rem;">
+          <img src="./imagenes/anime/padrinos-rosa.png" class="card-img-top rounded" alt="foto, uñas diseño padrinos magicos en tonos pink">
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-3">
+        <div class="card3" style="width: 18rem;">
+          <img src="./imagenes/anime/padrinos-verde.png" class="card-img-top rounded" alt="foto, uñas diseño padrinos magicos en tonos verde">
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-3">
+        <div class="card4" style="width: 18rem;">
+          <img src="./imagenes/13.jpg" class="card-img-top rounded" alt="foto, uñas diseño pink floyd">
+        </div>
+      </div>
+    <h2 class="texto1">
+    CONOCÉ CUÁLES SON
+    </h2>
+    <h2 class="texto2"  id="esmaltado teen">
+    YOUNG STYLE
+    </h2>
+    <h6>
+    Contamos con los mejores profesionales y productos, avalados mundialmente.
+    </h6>
+      <div class="col-sm-12 col-md-4 col-lg-3">
+        <div class="card1" style="width: 18rem;">
+          <img src="./imagenes/young/bts.jpg" class="card-img-top rounded" alt="foto, uñas diseño BTS">
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-3">
+        <div class="card2" style="width: 18rem;">
+          <img src="./imagenes/young/young1.jpg" class="card-img-top rounded" alt="foto, uñas diseño bad bunny">
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-3">
+        <div class="card3" style="width: 18rem;">
+          <img src="./imagenes/young/young2.jpg" class="card-img-top rounded" alt="foto, uñas diseño anime">
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-3">
+        <div class="card4" style="width: 18rem;">
+          <img src="./imagenes/young3.jpg" class="card-img-top rounded" alt="foto, uñas diseño black eye">
+        </div>
       </div>
     </div>
-
-    <div class="col-sm-12 col-md-4 col-lg-4">
-      <div class="card" style="width: 18rem;">
-          <img src="./imagenes/anime/padrinos-rosa.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+  </section>
+  <div class="container">  
+      <div class="texto1">
+        <p class="parrafo p-3 fs-2 border-top"> Te Contamos <br> <span class="span"> QUIÉNES SOMOS</span></p>
       </div>
-    </div>
-
-    <div class="col-sm-12 col-md-4 col-lg-4">
-      <div class="card" style="width: 18rem;">
-          <img src="./imagenes/anime/padrinos-verde.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+      <div class="texto2">
+        <p class="parrafo p-3 fs-2 border-top"> SOMOS SINONIMO DE, <br> <span class="span">PRACTICIDAD</span> Y <br><span class="span">COMODIDAD.</span></p>
+        <p class="parrafo2">
+          En Melissa Tolentino Nail Art, sabemos que tús uñas, lo son <span class="span2">TODO.</span><br>Nos encanta ser parte del proceso de tu oufit perfecto, sabemos lo importante que es para vos, por eso para nosotros el detalle es primordial. <br>Hagamos terapia mientras tus manos quedan hermosas.
+        </p>
       </div>
-    </div>
-
+      <div class="texto3">
+        <div class="parrafo">
+          <p class="parrafo p-3 fs-2 border-top"> MANOS Y PIES DIVINOS <br> <span class="span"> EN TAN SOLO</span></p>
+        </div>
+        <div class="ilustracion">
+          <img class="reloj" src="./img/logo-insta/clock.svg" alt="imagen reloj">
+          <p class="parrafo"> '15 </p>
+        </div>
+        <div class="pie">
+          <a href="#servicios" class="btn btn">
+          <p class="parrafopie"> CONOCÉ NUESTROS SERVICIOS</p>
+        </a>
+        </div>
+      </div>
   </div>
-
-
-<section class="container-fluid" id="Esmaltado Teen">
-  <h3 class="p-3 fs-4 text-center"><span class="text-white"> Esmaltado Teen</span>
-  </h3>
-  <div class="row w-100 p-4 text-center">
-    <div class="col-sm-12 col-md-4 col-lg-4">
-      <div class="card" style="width: 18rem;">
-          <img  class="" src="./imagenes/young/bts.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-      </div>
-    </div>  
-
-    <div class="col-sm-12 col-md-4 col-lg-4">   
-      <div class="card" style="width: 18rem;">
-          <img src="./imagenes/young/young1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-      </div>
-    </div>  
-
-    <div class="col-sm-12 col-md-4 col-lg-4">
-      <div class="card" style="width: 18rem;">
-          <img src="./imagenes/young/young2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-      </div>
-    </div>  
-
-  </div>
-</section>
-
-<main class="main" id="Contactanos">
-  <section class="container-fluid">
-    <section class="w-50 mx-auto text-center pt-2">
-     <h1 class="p-3 fs-2 border-top border-3">Si querés reservar tú turno <br> <span class="text-dark"> Contactanos en nuestras Redes Sociales</span></h1>
-      <class="redes">
-      <div class="row w-100 p-4 text-center">
+  <div id="Contactanos">
+    <section class="container-fluid">
+      <section class="w-50 mx-auto text-center pt-2">
+        <h2 class="p-3 fs-2 border-top border-3">Si querés reservar tú turno <br> <span class="text-dark"> Contactanos en nuestras Redes Sociales</span></h2>
+      </section>
+      <div class="redes row w-100 p-4 text-center">
         <div class="col-sm-12 col-md-4 col-lg-4">
           <a href="https://www.instagram.com/" class="btn btn" target="_blank">
             <div class="card" style="width: 13rem;">
-              <img  class="" src="./img/logo-insta/instagram.svg" class="card-img-top" alt="...">
+              <img  class="" src="./img/logo-insta/instagram.svg" class="card-img-top" alt="logo instagram">
             </div>
           </a>
-      </div>
-        
-        <div class="col-sm-12 col-md-4 col-lg-4">
+        </div>
+        <div class="redes col-sm-12 col-md-4 col-lg-4">
           <a href="https://web.whatsapp.com/" class="btn btn" target="_blank">
             <div class="card" style="width: 13rem;">
-              <img  class="" src="./img/logo-insta/whatsapp.svg" class="card-img-top" alt="...">
+              <img  class="" src="./img/logo-insta/whatsapp.svg" class="card-img-top" alt="logo whatsapp">
             </div>
           </a>
         </div>
-
-        <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="redes col-sm-12 col-md-4 col-lg-4">
           <a href="https://www.facebook.com/" class="btn btn" target="_blank">
             <div class="card" style="width: 13rem;">
-              <img  class="" src="./img/logo-insta/facebook.svg" class="card-img-top" alt="...">
+              <img  class="" src="./img/logo-insta/facebook.svg" class="card-img-top" alt="logo facebook">
             </div>
           </a>
         </div>
-   </div>
-  </section>
-
-
-</main>
-
-<div class="button">
-  <a href="https://web.whatsapp.com/" img src="./img/logo-insta/whatsapp.svg" alt="logo wsp" class="btn-wsp" target="blank"></a>
-</div>
-
-
-
-
-
-
-
-<footer class="pie-pagina">
-  <div class="grupo-1">
-    <div class="box">
-      <figure>
-        <a href="#">
-          <img src="./imagenes/logo/logo.jpg" alt="Logo de melissa tolentino nails art" class="rounded">
-        </a>
-      </figure>
-    </div>
-
-    <div class="box">
-      <h2>SOBRE NOSOTROS</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ipsa?</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, distinctio!</p>
-    </div>
-
-    <div class="box">
-      <h2>SIGUENOS</h2>
-
+      </div>
+    </section>
+  </div>
+  <div class="button">
+    <a href="https://web.whatsapp.com/" img src="./img/logo-insta/whatsapp.svg" alt="logo wsp" class="btn-wsp" target="blank"></a>
+  </div>
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <a href="#">
+            <img src="./imagenes/logo/logo.jpg" alt="Logo de melissa tolentino nails art" class="rounded" width="50px">
+          </a>
+        </figure>
+        <h6> Melissa Tolentino Nail Art</h6>
+      </div>
       <div class="red-social">
         <a href="https://www.facebook.com/" class="icon" target="_blank">
           <img src="./img/logo-insta/facebook.svg" alt="facebook">
@@ -290,21 +223,17 @@
         <a href="https://www.google.com/maps/place/Distrito+Arcos+Premium+Outlet/@-34.5805487,-58.4277825,15z/data=!4m6!3m5!1s0x4aabcb7b7fd341:0xd4d803156d38286c!8m2!3d-34.5805487!4d-58.4277825!16s%2Fg%2F11b6_jhy45" class="icon" target="_blank">
           <img src="./img/logo-insta/google.svg" alt="maps">
         </a>
+      </div>
     </div>
-  </div>
-
-  <div class="grupo-2">
-    <small>&copy; 2023 <b>Melissa Tolentino Nail Art</b> - Todos los derechos reservados</small>
-  </div>
-
-</footer>
-
-
-
-    
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-   
-    
+    <div class="grupo-2">
+      <small>&copy; 2023 <b>Melissa Tolentino Nail Art</b> - Todos los derechos reservados</small>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
 </body>
 </html>

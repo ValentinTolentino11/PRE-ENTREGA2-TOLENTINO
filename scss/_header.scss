@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100% auto;
+    .navbar{
+    width: auto;
+    height: 50px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: salmon;
+    position: fixed;
+    width: 100%;
+    &-brand{
+        img{
+            width: 50px;
+        }
+    }
+    &-nav{
+        .nav-item{
+            padding: 10px;
+            margin: 10px;
+            .a{
+                color: black;
+            }
+            .dropdown-menu{
+                background-color: rgba(128, 128, 128, 0.63);
+                & :hover{
+                    color: $bgcolorservicios;
+                    background-color: rgb(88, 88, 88);
+                }
+            }
+        }
+    }
+    }
+}

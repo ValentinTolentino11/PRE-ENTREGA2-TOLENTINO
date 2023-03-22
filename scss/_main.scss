@@ -1,0 +1,100 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "texto1 texto1"
+      "texto2 texto3";
+    .texto1 {
+        grid-area: texto1;
+        text-align: center;
+        .parrafo{
+            color: rgb(187, 187, 97);
+            font-family: $letrasubtitulo;
+            width: auto;
+            margin-top: 5px;
+            .span {
+                color: rgb(5, 5, 5);
+                justify-content: top;
+                font-family: $letrasubtitulo;
+                width: 500px;
+            }
+        }
+    }
+    .texto2 {
+        grid-area: texto2;
+        .parrafo {
+            font-family: $letrasubtitulo;
+            height: 100% auto;
+            width: 100% auto;
+            .span {
+                color: $bgcolorclaro;
+                font-family: $letrasubtitulo;
+            }
+        .parrafo2 {
+            width: 100% auto;
+        }
+        }
+     }
+      
+    .texto3 {
+        grid-area: texto3;
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 1fr, 1fr, 0.8fr;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "parrafo parrafo"
+        "ilustracion ilustracion"
+        "pie pie";
+        .parrafo {
+            color: rgb(187, 187, 97);
+            font-family: $letrasubtitulo;
+            width: auto;
+            margin-top: 5px;
+            margin-left: 100px;
+            .span {
+                color: rgb(5, 5, 5);
+                justify-content: top;
+                font-family: $letrasubtitulo;
+                text-align: center;
+                margin-left: 50px;
+            }
+        }
+        .ilustracion {
+            grid-area: ilustracion;
+            display: flex;
+            height: 100%;
+            margin-left: 100px;
+            .reloj {
+                height: 100%;
+                width: 100%;
+                margin-left: 25px;
+            }
+            .parrafo {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .pie {
+            grid-area: pie;
+            color: white;
+            background-color: $bgcolorclaro;
+            margin-left: 120px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 10px;
+            .parrafopie {
+                width: 100% auto;
+                color: white;
+                font-family: $letrasubtitulo;
+                margin-top: 5px;
+            }     
+        }
+    }
+
+  }
+
+  
