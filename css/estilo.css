@@ -74,11 +74,6 @@ header {
           color: #fa7769;
           background-color: #585858; }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; }
-
 footer {
   width: 100% auto; }
   footer .grupo-1 {
@@ -109,7 +104,8 @@ footer {
   grid-template-rows: 0.5fr 1.5fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "texto1 texto1" "texto2 texto3"; }
+  grid-template-areas: "texto1 texto1"
+ "texto2 texto3"; }
   .container .texto1 {
     grid-area: texto1;
     text-align: center; }
@@ -140,7 +136,9 @@ footer {
     grid-template-columns: 1fr, 1fr;
     grid-template-rows: 1fr, 1fr, 0.8fr;
     grid-auto-flow: row;
-    grid-template-areas: "parrafo parrafo" "ilustracion ilustracion" "pie pie"; }
+    grid-template-areas: "parrafo parrafo"
+ "ilustracion ilustracion"
+ "pie pie"; }
     .container .texto3 .parrafo {
       color: #bbbb61;
       font-family: "Anton", sans-serif;
@@ -256,3 +254,85 @@ footer {
 
 h1 {
   font-family: 'Anton', sans-serif; }
+
+@media (max-width: 1400px) {}
+@media (max-width: 1200px) {
+  .servicios .cards .card1 {
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 2px;
+  }
+  .servicios .cards .card2 {
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 2px;;
+  }
+  .servicios .cards .card3 {
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 2px;
+  }
+  .servicios .cards .card4 {
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 2px;
+  }
+}
+@media (max-width: 992px) {
+  .container .aside .cel .img {
+    width: 380px;
+    margin-left: 15px; }
+}
+@media (max-width: 768px) {
+  .container .aside .h1 {
+    text-align: center;
+    width: 100% auto;
+    margin-top: 100px;
+    margin-left: 2px; }
+  .container .aside .cel {
+    justify-content: end;
+    justify-items: end; }
+    .container .aside .cel .img {
+      width: 380px;
+      margin-left: 25px; }
+  .servicios .card {
+    display: flex;}
+    .servicios .cards .card1 {
+      margin-left: 240px;}
+    .servicios .cards .card2 {
+      margin-left: 240px;
+      margin-top: 10px;
+    }
+    .servicios .cards .card3 {
+      margin-left: 240px;
+      margin-top: 10px;
+    }
+    .servicios .cards .card4 {
+      margin-left: 240px;
+      margin-top: 10px;
+    }
+    .container-fluid-contactenos {
+      margin-top: 100px;
+    }
+}
+@media (max-width: 576px) {
+  .container .aside .h1 {
+    text-align: center;
+    width: 100% auto;
+    margin-top: 100px;
+    margin-left: 160px; }
+  .servicios .cards .card1 {
+    margin-left: 100px;}
+  .servicios .cards .card2 {
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  .servicios .cards .card3 {
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  .servicios .cards .card4 {
+    margin-left: 100px;
+    margin-top: 10px;
+  }  
+}

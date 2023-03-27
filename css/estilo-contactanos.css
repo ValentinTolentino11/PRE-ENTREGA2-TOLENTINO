@@ -1,52 +1,59 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;}
+
 header {
-  width: 100% auto; }
-  header .navbar {
-    width: auto;
-    height: 50px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: salmon;
-    position: fixed;
-    width: 100%; }
-    header .navbar-brand img {
-      width: 50px; }
-    header .navbar-nav .nav-item {
-      padding: 10px;
-      margin: 10px; }
-      header .navbar-nav .nav-item .a {
-        color: black; }
-      header .navbar-nav .nav-item .dropdown-menu {
-        background-color: rgba(128, 128, 128, 0.63); }
-        header .navbar-nav .nav-item .dropdown-menu :hover {
-          color: #fa7769;
-          background-color: #585858; }
-form{
-  width: 80%;
-}
-footer {
     width: 100% auto; }
-    footer .grupo-1 {
-      display: flex; }
-      footer .grupo-1 .box {
-        display: flex;
-        background-color: #282847;
-        width: 100%;
-        justify-content: center;
-        color: black; }
-        footer .grupo-1 .box .h6 {
-          background-color: pink;
-          color: pink;
-          text-align: center; }
-      footer .grupo-1 .red-social {
-        background-color: #282847;
-        display: flex;
-        justify-content: start; }
-        footer .grupo-1 .red-social .a {
-          justify-content: space-around; }
-    footer .grupo-2 {
-      background-color: gray;
-      text-align: center; }
+    header .navbar {
+      width: auto;
+      height: 50px;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: salmon;
+      position: fixed;
+      width: 100%; }
+      header .navbar-brand img {
+        width: 50px; }
+      header .navbar-nav .nav-item {
+        padding: 10px;
+        margin: 10px; }
+        header .navbar-nav .nav-item .a {
+          color: black; }
+        header .navbar-nav .nav-item .dropdown-menu {
+          background-color: rgba(128, 128, 128, 0.63); }
+          header .navbar-nav .nav-item .dropdown-menu :hover {
+            color: #fa7769;
+            background-color: #585858;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+.container .aside .parrafo {
+    text-align: center;
+}
+
+footer {
+  width: 100%;
+}
+footer .grupo-1 {
+    display: flex;
+}
+footer .grupo-1 .box {
+    display: flex;
+    background-color: #282847;
+    width: 100%;
+    justify-content: center;
+    color: black; }
+footer .grupo-1 .box .h6 {
+    background-color: pink;
+    color: pink;
+    text-align: center; }
+footer .grupo-1 .red-social {
+    background-color: #282847;
+    display: flex;
+    justify-content: start; }
+footer .grupo-1 .red-social .a {
+    justify-content: space-around; }
+footer .grupo-2 {
+    background-color: gray;
+    text-align: center; }
